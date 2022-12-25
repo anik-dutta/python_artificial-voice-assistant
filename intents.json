@@ -1,0 +1,1470 @@
+{
+	"intents": [
+		{
+			"tag": "how are you",
+			"patterns": [
+				"how are you",
+				"how are you doing",
+				"how is life treating you",
+				"how are your days going",
+				"how is it going",
+				"Wassup",
+				"how things going",
+				"howdy",
+				"how do you do",
+				"how you doing",
+				"how are things going",
+				"what's up",
+				"how have you been",
+				"how have you been recently"
+			],
+			"responses": [
+				"Fine. Thanks for asking.",
+				"Great. Thanks for asking.",
+				"I'm fine. Thank you. How about you?",
+				"I'm great. Thank you. How about you?",
+				"Well enough to chat with you if you wish to.",
+				"Great. And you?",
+				"I'm doing really well. And you?",
+				"Not bad actually. How are you doing?",
+				"Pretty good. Thanks for asking",
+				"Very well. How are you doing?",
+				"Fine, thanks. It’s a beautiful day."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "fine",
+			"patterns": [
+				"fine",
+				"great",
+				"good",
+				"I am doing really well",
+				"just as usual",
+				"not bad",
+				"nothing new",
+				"i am feeling better than ever",
+				"pretty good",
+				"well enough to chat with you if you wish to",
+				"delightful",
+				"i am doing alright",
+				"i am ok",
+				"fantastic",
+				"pretty well actually",
+				"life is treating me well",
+				"things are going well"
+			],
+			"responses": [
+				"It's good to know that you're fine.",
+				"Oh well. Ask me if you need my help.",
+				"Good to hear that.",
+				"Oh great. Ask me if you need my help"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "not so good",
+			"patterns": [
+				"not so good",
+				"bad",
+				"not great",
+				"feeling bad",
+				"feeling sick",
+				"not bad",
+				"awful",
+				"terrible",
+				"feeling under the weather",
+				"unwell",
+				"worse",
+				"horrible",
+				"feeling ill",
+				"feel sick as a dog",
+				"miserable",
+				"uncomfortable",
+				"i am not well",
+				"life is treating me bad",
+				"i feel like shit"
+			],
+			"responses": [
+				"I wish there was something I could do.",
+				"I'm sorry you have to go through this.",
+				"I'm here to listen whenever you need me.",
+				"I'm sorry to hear that.",
+				"I don't know what to say.",
+				"Oh no.",
+				"Oh no. Ask me if you need my help."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "what's your name",
+			"patterns": [
+				"what's your name",
+				"what name are you known by",
+				"tell your name",
+				"what do your friends call you",
+				"how should I address you",
+				"what should i call you",
+				"tell me your name",
+				"would you mind telling me your name"
+			],
+			"responses": [
+				"My friends call me",
+				"I'm",
+				"People call me",
+				"It's",
+				"You can call me"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "who made you",
+			"patterns": [
+				"who made you",
+				"who created you",
+				"tell your creator's name",
+				"what's the name of your creator",
+				"what's the name of your developer",
+				"who invented you",
+				"tell your manufacturer's name",
+				"who designed you",
+				"who built you"
+			],
+			"responses": [
+				"I've been created by Omega-5",
+				"Omega-5",
+				"They're known by Omega-5",
+				"It's Omega-5",
+				"Omega-5 designed me."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "joke",
+			"patterns": [
+				"tell me a joke",
+				"joke",
+				"tell me something funny",
+				"tell me a pun",
+				"make me laugh",
+				"say something hilarious",
+				"say some funny stuffs"
+			],
+			"responses": [
+				""
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "who am i",
+			"patterns": [
+				"who am i",
+				"define me",
+				"what is my identity",
+				"what am i",
+				"who do you think i am"
+			],
+			"responses": [
+				"You are a mortal, that's it",
+				"A Homo Sapiens"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "who are you",
+			"patterns": [
+				"who are you",
+				"define yourself",
+				"what is your identity",
+				"what are you",
+				"identify yourself"
+			],
+			"responses": [
+				"I'm your voice assistant AVA.",
+				"I'm AVA, your voice assistant."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "thank you",
+			"patterns": [
+				"thank you",
+				"thanks",
+				"thank you so much",
+				"thanks a ton",
+				"thank you very much"
+			],
+			"responses": [
+				"Mention not",
+				"Welcome",
+				"You're welcome",
+				"I aim to please",
+				"You're most welcome"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "hello",
+			"patterns": [
+				"hello",
+				"hi",
+				"hey",
+				"hey there",
+				"hiya"
+			],
+			"responses": [
+				"Hello...",
+				"Hi..",
+				"Hey, there...",
+				"Hey, good to see you",
+				"Hey, how can I help you?"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "good morning",
+			"patterns": [
+				"good morning",
+				"morning",
+				"rise and shine",
+				"sunshine, it's morning time"
+			],
+			"responses": [
+				"Hey, good morning.",
+				"Good morning.",
+				"A very good morning to you too.",
+				"Good morning. Hope you have a good day",
+				"Top of the morning to you!",
+				"Good morning. Have a great day",
+				"Wishing you the best for the day ahead.",
+				"Wishing you a splendid morning",
+				"Wishing you an awesome morning",
+				"Hope you have a wonderful day ahead"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "good afternoon",
+			"patterns": [
+				"good afternoon",
+				"afternoon",
+				"good noon"
+			],
+			"responses": [
+				"Hey, Good afternoon.",
+				"Good afternoon.",
+				"A very good afternoon",
+				"Have a good afternoon and a great day",
+				"Have an awesome afternoon",
+				"Wishing you a splendid afternoon",
+				"Half of the day is over; have a marvelous afternoon and enjoy the rest of the day!"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "good evening",
+			"patterns": [
+				"good evening",
+				"good eve"
+			],
+			"responses": [
+				"Hey, Good evening.",
+				"Good evening.",
+				"A very good pleasing eve.",
+				"A mesmerizing evening for you",
+				"Wishing you a very wonderful evening!",
+				"Good evening. Enjoy this beautiful evening today, And have a nice time",
+				"I hope you are having a refreshing evening"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "yes",
+			"patterns": [
+				"yes",
+				"yep",
+				"yeah",
+				"yeap",
+				"yup",
+				"affirmative",
+				"yes please",
+				"alright then",
+				"ok",
+				"sure",
+				"all right",
+				"alright",
+				"very well",
+				"of course",
+				"by all means",
+				"certainly",
+				"absolutely",
+				"indeed",
+				"in the affirmative",
+				"agreed",
+				"roger"
+			],
+			"responses": "",
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "no",
+			"patterns": [
+				"no",
+				"nope",
+				"na",
+				"not at all",
+				"don't bother",
+				"no need of that",
+				"no please",
+				"never",
+				"negative",
+				"no way",
+				"by no means",
+				"no need",
+				"of course not",
+				"not by any means",
+				"absolutely not",
+				"in the negative",
+				"disagreed"
+			],
+			"responses": "",
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "what is the date",
+			"patterns": [
+				"what is the date",
+				"tell me the date",
+				"what date is today",
+				"what is the day",
+				"tell me the day",
+				"what day is today",
+				"what week day is today",
+				"what is the weekday today"
+			],
+			"responses": [
+				"Today is ",
+				"It's "
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "what's the meaning of your name",
+			"patterns": [
+				"what's the meaning of your name",
+				"tell me the meaning of your name",
+				"what does ava mean",
+				"what does ava stand for",
+				"what is the full form of ava"
+			],
+			"responses": [
+				"Artificial Voice Assistant",
+				"AVA means Artificial Voice Assistant",
+				"It's Artificial Voice Assistant",
+				"AVA stands for Artificial Voice Assistant"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "change my name",
+			"patterns": [
+				"change my name",
+				"i want to change my user name",
+				"use another user name for me",
+				"i would like to change my username",
+				"use another username for me"
+			],
+			"responses": [
+				""
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "good night",
+			"patterns": [
+				"good night",
+				"night night"
+			],
+			"responses": [
+				"Wishing you the sweetest dreams as you drift off to sleep",
+				"Good Night",
+				"Night night",
+				"Good night and sleep tight.",
+				"Good night. Enjoy your adventure in the forest of dreams.",
+				"Good night. Have a good sleep",
+				"Night night. Sleep well.",
+				"Sleep tight"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "saturday",
+			"patterns": [
+				"saturday"
+			],
+			"responses": [
+				"Get dressed and head out for an unplanned evening out. Go out with your family, friends or your date.",
+				"Your go-to might be a night out at a bar or club.",
+				"Grab a group of friends. A night hike is a great way to get outside in a unique setting. If you're in a city without any hiking options, check out a scenic view from a lookout point or skyrise building.",
+				"Even if you don't know the artist, you can end up having a great time listening to live music and dancing.",
+				"There are plenty of creative ways to host your friends for an evening in that feels like the most exciting event you've attended all year. You might want to show off some new culinary skills, cooking a meal from scratch, all on your own.",
+				"Had a tough week? Treat yourself to a self-care night in, complete with a relaxing bubble bath, a face mask, and a few activities to nurture your inner world.",
+				"Sometimes all you need to do is curl up in bed and escape with a good book and a cup of tea without having to worry about going to work the next day—now's your chance!",
+				"Dedicate this evening to learning a new recipe or whip up an old favorite you haven't made in a while.",
+				"Had a tough week? You can connect with friends to freshen up your mood.",
+				"It might just be time to get out of your routine and head out on a trip to clear your head.",
+				"Curl up in bed with your TV by your side or laptop on your stomach and really hunker down, devouring episode after episode of that new must-watch show. You might even want to take a giant bowl of popcorn into bed with you!"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "sunday",
+			"patterns": [
+				"sunday",
+				"weekend"
+			],
+			"responses": [
+				"Plan a romantic, candlelight dinner for your spouse or loved one.",
+				"Reading a good book can be a pleasurable activity to do today.",
+				"Find a great spot in your community to catch the sunset today.",
+				"Throw a picnic lunch together and find a shady spot to enjoy the day with your loved ones.",
+				"Get some friends together and do a Road Rally.",
+				"Have a Bonfire or Campfire in Your Backyard.",
+				"Grab the poles, find a pond, and cast those lines!",
+				"Hit the sandy shores for a little rest and relaxation. Just don't forget to protect your skin!",
+				"It's Sunday! Invite friends over for a movie marathon featuring all the classics you remember from when you were growing up.",
+				"Pick one activity from your Bucket List to do this weekend.",
+				"Go on a star-gazing adventure. Grab a blanket and head to a park to lay and watch the stars.",
+				"It might just be time to get out of your routine and head out on a trip to clear your head.",
+				"Curl up in bed with your TV by your side or laptop on your stomach and really hunker down, devouring episode after episode of that new must-watch show. You might even want to take a giant bowl of popcorn into bed with you!"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "take screenshot",
+			"patterns": [
+				"take screenshot",
+				"capture screenshot",
+				"screenshot"
+			],
+			"responses": [
+				"Screenshot captured...",
+				"Screenshot taken..."
+			],
+			"context": [
+				"screenshot"
+			]
+		},
+		{
+			"tag": "open wikipedia",
+			"patterns": [
+				"open wikipedia",
+				"wikipedia",
+				"enter wikipedia"
+			],
+			"responses": [
+				"Opening Wikipedia...",
+				"Entering Wikipedia...",
+				"Here you go",
+				"Here you go, happy learning"
+			],
+			"context": [
+				"wiki"
+			]
+		},
+		{
+			"tag": "search in wikipedia about",
+			"patterns": [
+				"search in wikipedia about",
+				"look into wikipedia about",
+				"look for from wikipedia",
+				"check for from wikipedia",
+				"find in wikipedia about"
+			],
+			"responses": [
+				"Searching Wikipedia...",
+				"According to Wikipedia...",
+				"Here you go.",
+				"Here you go, happy learning"
+			],
+			"context": [
+				"wiki"
+			]
+		},
+		{
+			"tag": "open youtube",
+			"patterns": [
+				"open youtube",
+				"youtube",
+				"enter youtube"
+			],
+			"responses": [
+				"Opening YouTube...",
+				"Entering YouTube...",
+				"Here you go.",
+				"Here you go Youtube, have fun."
+			],
+			"context": [
+				"youtube"
+			]
+		},
+		{
+			"tag": "search in youtube about",
+			"patterns": [
+				"search in youtube about",
+				"look into youtube about",
+				"look for from youtube",
+				"check for from youtube",
+				"find in youtube about"
+			],
+			"responses": [
+				"Searching YouTube...",
+				"According to YouTube...",
+				"Here you go.",
+				"Here you go, have fun."
+			],
+			"context": [
+				"youtube"
+			]
+		},
+		{
+			"tag": "open stackoverflow",
+			"patterns": [
+				"open stackoverflow",
+				"stackoverflow",
+				"enter stackoverflow",
+				"stack overflow",
+				"open stack overflow",
+				"enter stack overflow"
+			],
+			"responses": [
+				"Here you go to Stack Overflow, happy coding.",
+				"Entering Stack Overflow...",
+				"Here you go",
+				"Opening Stack Overflow..."
+			],
+			"context": [
+				"stackoverflow"
+			]
+		},
+		{
+			"tag": "search in stackoverflow about",
+			"patterns": [
+				"search in stackoverflow about",
+				"look into stackoverflow about",
+				"look for from stackoverflow",
+				"check for from stackoverflow",
+				"find in stackoverflow about",
+				"search in stack overflow about",
+				"look into stack overflow about",
+				"look for from stack overflow",
+				"check for from stack overflow",
+				"find in stack overflow about"
+			],
+			"responses": [
+				"Searching Stack Overflow...",
+				"According to Stack Overflow...",
+				"Here you go",
+				"Here you go, happy coding"
+			],
+			"context": [
+				"stackoverflow"
+			]
+		},
+		{
+			"tag": "open geeksforgeeks",
+			"patterns": [
+				"open geeksforgeeks",
+				"geeksforgeeks",
+				"enter geeksforgeeks",
+				"open geeks for geeks",
+				"geeks for geeks",
+				"enter geeks for geeks",
+				"open geeks forgeeks",
+				"enter geeks forgeeks",
+				"open geeksfor geeks",
+				"enter geeksfor geeks"
+			],
+			"responses": [
+				"Here you go to GeeksforGeeks, happy learning",
+				"Entering GeeksforGeeks...",
+				"Here you go",
+				"Opening GeeksforGeeks..."
+			],
+			"context": [
+				"geeksforgeeks"
+			]
+		},
+		{
+			"tag": "search in geeksforgeeks about",
+			"patterns": [
+				"search in geeksforgeeks about",
+				"look into geeksforgeeks about",
+				"look for from geeksforgeeks",
+				"check for from geeksforgeeks",
+				"find in geeksforgeeks about",
+				"search in geeks for geeks about",
+				"look into geeks for geeks about",
+				"look for from geeks for geeks",
+				"check for from geeks for geeks",
+				"find in geeks for geeks about",
+				"search in geeks forgeeks about",
+				"look into geeks forgeeks about",
+				"look for from geeks forgeeks",
+				"check for from geeks forgeeks",
+				"find in geeks forgeeks about",
+				"search in geeksfor geeks about",
+				"look into geeksfor geeks about",
+				"look for from geeksfor geeks",
+				"check for from geeksfor geeks",
+				"find in geeksfor geeks about"
+			],
+			"responses": [
+				"Searching GeeksforGeeks...",
+				"According to GeeksforGeeks...",
+				"here you go",
+				"here you go, happy learning"
+			],
+			"context": [
+				"geeksforgeeks"
+			]
+		},
+		{
+			"tag": "open tutorialspoint",
+			"patterns": [
+				"open tutorialspoint",
+				"tutorialspoint",
+				"enter tutorialspoint"
+			],
+			"responses": [
+				"Here you go to Tutorialspoint, happy learning",
+				"Entering Tutorialspoint...",
+				"Here you go",
+				"Opening Tutorialspoint..."
+			],
+			"context": [
+				"tutorialspoint"
+			]
+		},
+		{
+			"tag": "search in tutorialspoint about",
+			"patterns": [
+				"search in tutorialspoint about",
+				"look into tutorialspoint about",
+				"look for from tutorialspoint",
+				"check for from tutorialspoint",
+				"find in tutorialspoint about"
+			],
+			"responses": [
+				"Searching Tutorialspoint...",
+				"According to Tutorialspoint...",
+				"Here you go",
+				"Here you go, happy learning"
+			],
+			"context": [
+				"tutorialspoint"
+			]
+		},
+		{
+			"tag": "open encyclopedia",
+			"patterns": [
+				"open encyclopedia",
+				"enter encyclopedia",
+				"encyclopedia"
+			],
+			"responses": [
+				"Here you go to Encyclopedia, happy learning",
+				"Entering Encyclopedia...",
+				"Here you go",
+				"Opening Encyclopedia..."
+			],
+			"context": [
+				"encyclopedia"
+			]
+		},
+		{
+			"tag": "search in encyclopedia about",
+			"patterns": [
+				"search in encyclopedia about",
+				"look into encyclopedia about",
+				"look for from encyclopedia",
+				"check for from encyclopedia",
+				"find in encyclopedia about"
+			],
+			"responses": [
+				"Searching Encyclopedia...",
+				"According to Encyclopedia...",
+				"Here you go",
+				"Here you go, happy learning"
+			],
+			"context": [
+				"encyclopedia"
+			]
+		},
+		{
+			"tag": "open britannica",
+			"patterns": [
+				"open britannica",
+				"enter britannica",
+				"britannica"
+			],
+			"responses": [
+				"Here you go to Encyclopedia Britannica, happy learning",
+				"Entering Encyclopedia Britannica...",
+				"Here you go",
+				"Opening Encyclopedia Britannica..."
+			],
+			"context": [
+				"britannica"
+			]
+		},
+		{
+			"tag": "search in britannica about",
+			"patterns": [
+				"search in britannica about",
+				"look into britannica about",
+				"look for from britannica",
+				"check for from britannica",
+				"find in britannica about"
+			],
+			"responses": [
+				"Searching Encyclopedia Britannica...",
+				"According to Encyclopedia Britannica...",
+				"Here you go",
+				"Here you go, happy learning"
+			],
+			"context": [
+				"britannica"
+			]
+		},
+		{
+			"tag": "open javatpoint",
+			"patterns": [
+				"open java t point",
+				"java t point",
+				"enter java t point",
+				"open javatpoint",
+				"javatpoint",
+				"enter javatpoint",
+				"open java tpoint",
+				"java tpoint",
+				"enter java tpoint",
+				"open javat point",
+				"javat point",
+				"enter javat point"
+			],
+			"responses": [
+				"Here you go to Javatpoint, happy learning",
+				"Entering Javatpoint...",
+				"Here you go",
+				"Opening Javatpoint..."
+			],
+			"context": [
+				"javatpoint"
+			]
+		},
+		{
+			"tag": "search in javatpoint about",
+			"patterns": [
+				"search in java t point about",
+				"search in javatpoint about",
+				"search in java tpoint about",
+				"search in javat point about",
+				"look into java t point about",
+				"look into javatpoint about",
+				"look into java tpoint about",
+				"look into javat point about",
+				"find in java t point about",
+				"find in javatpoint about",
+				"find in java tpoint about",
+				"find in javat point about",
+				"check for from java t point",
+				"check for from javatpoint",
+				"check for from java tpoint",
+				"check for from javat point",
+				"look for from java t point",
+				"look for from javatpoint",
+				"look for from java tpoint",
+				"look for from javat point"
+			],
+			"responses": [
+				"Searching Javatpoint...",
+				"According to Javatpoint...",
+				"Here you go",
+				"Here you go, happy learning"
+			],
+			"context": [
+				"javatpoint"
+			]
+		},
+		{
+			"tag": "open chrome",
+			"patterns": [
+				"open chrome",
+				"enter chrome",
+				"chrome",
+				"google chrome",
+				"open google chrome"
+			],
+			"responses": [
+				"Here you go to Google Chrome, happy browsing",
+				"Entering Google Chrome...",
+				"Here you go",
+				"Opening Google Chrome..."
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open mozilla firefox",
+			"patterns": [
+				"open mozilla firefox",
+				"enter mozilla firefox",
+				"mozilla firefox",
+				"open firefox",
+				"enter firefox"
+			],
+			"responses": [
+				"Here you go to Mozilla Firefox, happy browsing",
+				"Entering Mozilla Firefox...",
+				"Here you go",
+				"Opening Mozilla Firefox..."
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open microsoft edge",
+			"patterns": [
+				"open microsoft edge",
+				"enter microsoft edge",
+				"microsoft edge",
+				"open edge",
+				"enter edge"
+			],
+			"responses": [
+				"Here you go to Microsoft Edge, happy browsing",
+				"Entering Microsoft Edge...",
+				"Here you go",
+				"Opening Microsoft Edge..."
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open power point presentation",
+			"patterns": [
+				"open power point presentation",
+				"enter power point presentation",
+				"power point presentation",
+				"open power point",
+				"enter power point",
+				"open ms power point",
+				"enter ms power point",
+				"enter microsoft power point",
+				"open microsoft power point"
+			],
+			"responses": [
+				"Opening Microsoft PowerPoint...",
+				"Entering Microsoft PowerPoint...",
+				"Here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open word",
+			"patterns": [
+				"open word",
+				"enter word",
+				"open ms word",
+				"enter ms word",
+				"enter microsoft word",
+				"open microsoft word"
+			],
+			"responses": [
+				"Opening Microsoft Word...",
+				"Entering Microsoft Word...",
+				"Here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open excel",
+			"patterns": [
+				"open excel",
+				"enter excel",
+				"open ms excel",
+				"enter ms excel",
+				"enter microsoft excel",
+				"open microsoft excel"
+			],
+			"responses": [
+				"opening microsoft excel",
+				"enter microsoft excel",
+				"here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open notepad",
+			"patterns": [
+				"open notepad",
+				"enter notepad",
+				"notepad"
+			],
+			"responses": [
+				"Opening Notepad...",
+				"Entering Notepad...",
+				"Here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open adobe acrobat reader",
+			"patterns": [
+				"open adobe acrobat reader",
+				"enter adobe acrobat reader",
+				"adobe acrobat reader",
+				"acrobat reader"
+			],
+			"responses": [
+				"Opening Adobe Acrobat Reader...",
+				"Entering Adobe Acrobat Reader...",
+				"Here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open k m player",
+			"patterns": [
+				"open k m player",
+				"enter k m player",
+				"open km player",
+				"enter km player",
+				"open kmplayer",
+				"enter kmplayer",
+				"open k mplayer",
+				"enter k mplayer"
+			],
+			"responses": [
+				"Opening KMPlayer...",
+				"Entering KMPlayer...",
+				"Here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "open vlc media player",
+			"patterns": [
+				"open vlc media player",
+				"enter vlc media player",
+				"open vlc",
+				"enter vlc"
+			],
+			"responses": [
+				"Opening VLC Media Player",
+				"Entering VLC Media Player",
+				"Here you go"
+			],
+			"context": [
+				"open_app"
+			]
+		},
+		{
+			"tag": "lock window",
+			"patterns": [
+				"lock window",
+				"lock my system",
+				"lock my pc"
+			],
+			"responses": [
+				"Locking the device."
+			],
+			"context": [
+				"syscoms"
+			]
+		},
+		{
+			"tag": "shutdown system",
+			"patterns": [
+				"shutdown system",
+				"shutdown my pc"
+			],
+			"responses": [
+				"Hold On a Sec! Your system is on its way to shut down."
+			],
+			"context": [
+				"syscoms"
+			]
+		},
+		{
+			"tag": "restart system",
+			"patterns": [
+				"restart system",
+				"restart",
+				"restart my pc"
+			],
+			"responses": [
+				"Hold On a Sec! Your system is on its way to restart."
+			],
+			"context": [
+				"syscoms"
+			]
+		},
+		{
+			"tag": "log off",
+			"patterns": [
+				"log off",
+				"sign out",
+				"log out",
+				"sign off"
+			],
+			"responses": [
+				"Logging out, make sure all aplications are turned off."
+			],
+			"context": [
+				"syscoms"
+			]
+		},
+		{
+			"tag": "hibernate",
+			"patterns": [
+				"put my pc in hibernate",
+				"put my pc in sleep mode",
+				"hibernate",
+				"sleep"
+			],
+			"responses": [
+				"Sleeping",
+				"Hibernating"
+			],
+			"context": [
+				"syscoms"
+			]
+		},
+		{
+			"tag": "empty recycle bin",
+			"patterns": [
+				"empty recycle bin",
+				"clear recycle bin",
+				"clean recycle bin"
+			],
+			"responses": [
+				"Recycle bin cleaned succesfully.",
+				"Recycle bin emptied succesfully."
+			],
+			"context": [
+				"syscoms"
+			]
+		},
+		{
+			"tag": "don't listen",
+			"patterns": [
+				"don't listen",
+				"stop listening"
+			],
+			"responses": [
+				"For how much time you want to stop me from listening you?"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "send email",
+			"patterns": [
+				"send email",
+				"write email",
+				"I want to send a mail",
+				"send mail",
+				"write a mail",
+				"I want to send an email"
+			],
+			"responses": [
+				"What should I write?"
+			],
+			"responses1": [
+				"Email has been sent."
+			],
+			"responses2": [
+				"I'm not able to send this Email.",
+				"Sorry. Can't send this Email."
+			],
+			"context": [
+				"send_email"
+			]
+		},
+		{
+			"tag": "write a note",
+			"patterns": [
+				"write a note",
+				"take a note",
+				"I want to you write a note",
+				"write a note for me"
+			],
+			"responses": [
+				"What should I write?",
+				"Listening... Tell me what to write."
+			],
+			"context": [
+				"notepad"
+			]
+		},
+		{
+			"tag": "show note",
+			"patterns": [
+				"show note",
+				"open note",
+				"show the note which you wrote last",
+				"open the note that you have written"
+			],
+			"responses": [
+				"Showing Note"
+			],
+			"context": [
+				"notepad"
+			]
+		},
+		{
+			"tag": "change your name",
+			"patterns": [
+				"change your name",
+				"I want to call you by a new name",
+				"thinking about addressing you by a new name"
+			],
+			"responses": [
+				"What would you like to call me?",
+				"Suggest me a name.",
+				"Ok. Tell me a name if you have thought about any.",
+				"I would be happy to get a new name."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "exit",
+			"patterns": [
+				"exit",
+				"close",
+				"turn off yourself"
+			],
+			"responses": [
+				"Thanks for giving me your time.",
+				"Hope to see you soon."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "calculate",
+			"patterns": [
+				"compute",
+				"calculate",
+				"what's the answer of",
+				"summation",
+				"determine",
+				"tell me the value of",
+				"solve this problem"
+			],
+			"responses": [
+				"The answer is ",
+				"It's ",
+				"Hmm, I guess it would be ",
+				"Oh, your answer is "
+			],
+			"context": [
+				"calculate"
+			]
+		},
+		{
+			"tag": "open google",
+			"patterns": [
+				"open google",
+				"enter google",
+				"open web",
+				"enter web"
+			],
+			"responses": [
+				"Here you go to Google, happy browsing",
+				"Entering Google...",
+				"Here you go",
+				"Opening Google..."
+			],
+			"context": [
+				"web"
+			]
+		},
+		{
+			"tag": "search in web",
+			"patterns": [
+				"search in web",
+				"I want to search about",
+				"look for in web",
+				"search in web about",
+				"look into web about",
+				"find in web about",
+				"check for from web",
+				"search in google about",
+				"look into google about",
+				"look for from google",
+				"find in google about",
+				"check for from google",
+				"google about"
+			],
+			"responses": [
+				"Searching Google...",
+				"According to Google...",
+				"Here you go",
+				"Here you go, happy browsing",
+				"Here are the Google results"
+			],
+			"context": [
+				"web"
+			]
+		},
+		{
+			"tag": "what is the time",
+			"patterns": [
+				"what is the time",
+				"tell me the time",
+				"what is the current time now",
+				"can you tell me the time"
+			],
+			"responses": [
+				"Now it's",
+				"It's"
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "change background",
+			"patterns": [
+				"change background",
+				"use a cool wallpaper",
+				"I want to change my background wallpaper",
+				"use another background"
+			],
+			"responses": [
+				"Background changed succesfully!",
+				"Wallpaper changed succesfully!"
+			],
+			"context": [
+				"background"
+			]
+		},
+		{
+			"tag": "news",
+			"patterns": [
+				"news",
+				"whats's the news today",
+				"is there any news for today",
+				"latest news",
+				"tell me about today's news"
+			],
+			"responses": [
+				"Here are some top news from The Times of India"
+			],
+			"context": [
+				"news"
+			]
+		},
+		{
+			"tag": "where is",
+			"patterns": [
+				"where is",
+				"tell me the location of",
+				"tell me where is situated",
+				"can you find the location",
+				"location of",
+				"find the location"
+			],
+			"responses": [
+				"Here is the location",
+				"Here is the place",
+				"Here is the location of #*#*#*",
+				"#*#*#* is situated here...",
+				"Here is #*#*#*"
+			],
+			"context": [
+				"location"
+			]
+		},
+		{
+			"tag": "my location",
+			"patterns": [
+				"where is my location",
+				"tell me about my location",
+				"my location",
+				"what is my location",
+				"show my current location",
+				"give me my present location"
+			],
+			"responses": [
+				"Here is your location",
+				"Your location is ",
+				"Your current location is ",
+				"Currently you are in "
+			],
+			"context": [
+				"location"
+			]
+		},
+		{
+			"tag": "weather",
+			"patterns": [
+				"weather",
+				"how's the weather today",
+				"what's the temperature today",
+				"what's the humidity today",
+				"tell me about today's weather",
+				"today's weather"
+			],
+			"responses": [
+				"Tell me the City name please"
+			],
+			"responses1": [
+				"Weather is",
+				"Weather in #*#*#* is",
+				"Today's weather in #*#*#* is"
+			],
+			"responses2": [
+				"Can't find the City",
+				"Sorry, city not found!"
+			],
+			"context": [
+				"weather"
+			]
+		},
+		{
+			"tag": "send message",
+			"patterns": [
+				"send message",
+				"write a message",
+				"I want to send a message",
+				"can you write a message for me",
+				"send a message on behalf of me"
+			],
+			"responses": [
+				"Tell me your message",
+				"Tell me what to write"
+			],
+			"numresponse": [
+				"Tell me the number ",
+				"Whom should I send the message? Give me the number ",
+				"What's the number?"
+			],
+			"context": [
+				"message"
+			]
+		},
+		{
+			"tag": "what is",
+			"patterns": [
+				"what is",
+				"who is",
+				"tell me about"
+			],
+			"responses": [
+				""
+			],
+			"context": [
+				"question"
+			]
+		},
+		{
+			"tag": "want to listen a song",
+			"patterns": [
+				"want to listen a song",
+				"want to listen something soothing",
+				"do you want me to play a song",
+				"do you want to listen any music"
+			],
+			"responses": [
+				"Here you go.",
+				"Listen to this soothing music.",
+				"Listen to this amazing music.",
+				"Enjoy this great piece of music..."
+			],
+			"context": [
+				"conversation"
+			]
+		},
+		{
+			"tag": "play the music",
+			"patterns": [
+				"play the music",
+				"play the song",
+				"play the song called"
+			],
+			"responses": [
+				"Here you go",
+				"Playing #*#*#*",
+				"Playing the music #*#*#*"
+			],
+			"context": [
+				"music"
+			]
+		}
+	]
+}

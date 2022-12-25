@@ -1,0 +1,3 @@
+Artificial Voice Assistant (AVA), a windows based Voice Assistant that has the ability to receive and interpret spoken commands and carry out appropriate actions.
+*	It can perform a wide range of tasks such as to browse various websites, send Email, streaming YouTube videos, open different desktop applications, read out the latest news, take notes, check weather, give location of a place, Capture screenshot, perfotm out basic system operations etc. Also it can carry out a conversion.
+*	Python, Automatic Speech Recognition, NLP, Deep Learning were used in this project.

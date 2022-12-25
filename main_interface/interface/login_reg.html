@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sign In and Sign Up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="/eel.js"></script>
+</head>
+
+<body>
+	<div class="cont">
+		<form name="form" method="post">
+			<div class="form sign-in">
+				<h2>Sign In</h2>
+				<label>
+					<span>User Name</span>
+					<input type="text" id="usname" name="uname" required>
+				</label>
+				<label>
+					<span>Password</span>
+					<input type="password" id="upassword" name="upassword" required>
+				</label>
+				<button class="submit" type="button" onclick="return login()">Sign In</button>
+				</a>
+				<img src="images/nexus2cee_Hound-Thumb.png" id="ava_logo">
+		</form>
+	</div>
+
+	<div class="sub-cont">
+		<div class="img">
+			<div class="img-text m-up">
+				<h2>If you are a new user sign up now</h2>
+			</div>
+			<div class="img-text m-in">
+				<h2>To connect with AVA sign in</h2>
+			</div>
+			<div class="img-btn">
+				<span class="m-up">Sign Up</span>
+				<span class="m-in">Sign In</span>
+			</div>
+		</div>
+		<form id="myForm" name="Form" method="post">
+			<div class="form sign-up">
+				<h2>Sign Up</h2>
+				<label>
+					<span>User Name</span>
+					<input name="uname" id="uname" type="text" required>
+				</label>
+				<label>
+					<span>Email</span>
+					<input name="email" id="email" type="email" required>
+				</label>
+				<label>
+					<span>Password</span>
+					<input name="password" id="password" type="password" required>
+				</label>
+				<label>
+					<span>city</span>
+					<input name="city" id="city" type="text" required>
+				</label>
+				<label>
+					<span>Phone Number</span>
+					<input name="Phone" id="Phone" type="text" required>
+				</label>
+				<button id="signup" type="button" class="submit" onclick="return validateForm()">Sign Up Now</button>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
